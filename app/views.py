@@ -6,7 +6,7 @@ def index(req):
   template_name = 'index.html'
 
   return render(req, template_name, context={
-    'header': 'Homepage',
+    'header': 'Homepage eki-dev',
     'chefs': Chef.objects.all(),
     'home': 'active' 
   })
